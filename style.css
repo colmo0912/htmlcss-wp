@@ -102,7 +102,7 @@ a {
 main {
 
     width: 80%;
-    height: 450px;
+    height: 500px;
     margin: auto;
     padding: 10px 0 10px 0;
 
@@ -169,7 +169,7 @@ main {
     height: 100%;
     /* border: 10px solid white; */
     margin: 0 1% 0 1%;
-    
+
 }
 
 
@@ -179,7 +179,6 @@ main {
     height: 100%;
     /* border-bottom: 5px solid white;
     border-top:5px solid white; */
-    
 
 }
 
@@ -194,15 +193,14 @@ main {
     color: rgb(133, 130, 130);
     font-family: 'Noto Sans', sans-serif;
     font-weight: 100;
+
 }
 
 footer {
 
     width: 80%;
-    height: 50px;
     margin: auto;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 
 }
 
@@ -217,7 +215,7 @@ footer h4 {
 
 footer h4 span {
 
-    color: red
+    color: red;
 
 }
 
