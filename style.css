@@ -102,13 +102,15 @@ a {
 main {
 
     width: 80%;
-    height: 500px;
+    /* height: 500px; */
     margin: auto;
     padding: 10px 0 10px 0;
+    
+    
 
 }
 
-.main::after {
+main::after{
 
     content: "";
     display: table;
@@ -142,7 +144,7 @@ main {
 .left_main {
 
     width: 25%;
-    height: 100%;
+    
     /* border-bottom: 10px solid white;;
     border-top:10px solid white; */
 
@@ -156,7 +158,7 @@ main {
 } */
 
 
-.left_main_bottom {
+.left_main_bottom, .middle_main_bottom, .right_main_bottom {
 
     height: 60%;
 
@@ -166,7 +168,7 @@ main {
 .middle_main {
 
     width: 48%;
-    height: 100%;
+    
     /* border: 10px solid white; */
     margin: 0 1% 0 1%;
 
@@ -176,7 +178,7 @@ main {
 .right_main {
 
     width: 25%;
-    height: 100%;
+    
     /* border-bottom: 5px solid white;
     border-top:5px solid white; */
 
@@ -201,6 +203,7 @@ footer {
     width: 80%;
     margin: auto;
     padding-bottom: 20px;
+
 
 }
 
